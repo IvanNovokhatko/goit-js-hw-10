@@ -32,7 +32,7 @@ const options = {
       console.log(selectedDates[0]);
       userSelectedDate = selectedDates[0];
 
-      if (new Date().getTime() - userSelectedDate.getTime() > 0) {
+      if (new Date().getTime() - userSelectedDate.getTime() >= 0) {
           
         //   Warning
           iziToast.show({
